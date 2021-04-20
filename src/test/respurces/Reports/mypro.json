@@ -1,0 +1,135 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-14T07:51:55.870Z",
+        "line": 29,
+        "name": "To verify Login functionality with valid username and valid password",
+        "description": "",
+        "id": "to-validate-login-functionality;to-verify-login-functionality-with-valid-username-and-valid-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6291871600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is in the Deals direct home page",
+            "match": {
+              "location": "StepDefinition.user_is_in_the_Deals_direct_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3242085500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user mouse over to Person icon",
+            "match": {
+              "location": "StepDefinition.user_mouse_over_to_Person_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 474799900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user clicked my details in the drop down list preset in the person icon",
+            "match": {
+              "location": "StepDefinition.user_clicked_my_details_in_the_drop_down_list_preset_in_the_person_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7935000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user is in the signup and signin Taskpage",
+            "match": {
+              "location": "StepDefinition.user_is_in_the_signup_and_signin_Taskpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3138514600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicked the signin tab",
+            "match": {
+              "location": "StepDefinition.user_clicked_the_signin_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 377916500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user entered valid \"acchuthantm@gmail.com\" and valid \"Acchu123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"acchuthantm@gmail.com\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Acchu123\"",
+                  "offset": 53
+                }
+              ],
+              "location": "StepDefinition.user_entered_valid_and_valid(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2280317700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user entered sigin button",
+            "match": {
+              "location": "StepDefinition.user_entered_sigin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6138200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "The user navigated to the next page",
+            "match": {
+              "location": "StepDefinition.the_user_navigated_to_the_next_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate login functionality",
+    "description": "",
+    "id": "to-validate-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/DealsDirect.feature",
+    "tags": []
+  }
+]

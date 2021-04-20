@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.869169">
+<testcase classname="To validate login functionality" name="To verify Login functionality with valid username and valid password" time="15.869169">
+<system-out><![CDATA[Given user is in the Deals direct home page.................................passed
+When user mouse over to Person icon.........................................passed
+When user clicked my details in the drop down list preset in the person icon.passed
+Then user is in the signup and signin Taskpage..............................passed
+When user clicked the signin tab............................................passed
+And user entered valid "acchuthantm@gmail.com" and valid "Acchu123".........passed
+And user entered sigin button...............................................passed
+Then The user navigated to the next page....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
